@@ -2,23 +2,19 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 
-const linkStyle = { textDecoration: 'none' }
-
 function Nav() {
   return (
-    <nav className='navbar navbar-dark bg-dark justify-content-center'>
-        <ul className='nav'>
-            <Link to='/' style={linkStyle}>
-                <li className='nav-item'>
-                    <a className='nav-link'>Current weather</a>
-                </li>
-            </Link>
-            <Link to='/Forecast' style={linkStyle}>
-                <li className='nav-link'>Forecast</li>
-            </Link>
-            <Link to='ChartForecast' style={linkStyle}>
-                <li className='nav-link'>Charts</li>
-            </Link>
+    <nav className='navbar navbar-expand-sm bg-dark navbar-dark justify-content-center'>
+        <ul className='navbar-nav'>
+            <li className='nav-item'>
+                <Link to='/' className='nav-link'>Now</Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/Forecast' className='nav-link'>Forecast</Link>
+            </li>
+            <li className='nav-item'>
+                <Link to='/ChartForecast' className='nav-link'>Charts</Link>
+            </li>
         </ul>
     </nav>
   );

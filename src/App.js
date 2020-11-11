@@ -11,11 +11,13 @@ function App() {
         <Router>
             <div>
                 <Nav />
-                <Switch>
-                    <Route path='/' exact component={CurrentWeather}/>
-                    <Route path='/Forecast' component={Forecast}/>
-                    <Route path='/ChartForecast' component={ChartForecast}/>
-                </Switch>
+                <div className="container justify-content-end text-center">
+                    <Switch>
+                        <Route path='/' exact component={CurrentWeather}/>
+                        <Route path='/Forecast' component={Forecast}/>
+                        <Route path='/ChartForecast' component={ChartForecast}/>
+                    </Switch>
+                </div>
                 <Footer />
             </div>
         </Router>
