@@ -9,7 +9,7 @@ function Footer() {
                 <p className="text-right">Weather app created by gstibi</p>
             </div>
             <div className="col-sm-6">
-                <a className='nav-item' href='https://github.com/gstibi/wa-react'>Source on github</a>
+                <a className='nav-item' href='https://github.com/gstibi/wa-react' target='_blank'>Source on github</a>
             </div>
         </div>
     </footer>

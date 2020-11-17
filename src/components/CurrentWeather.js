@@ -18,17 +18,15 @@ function CurrentWeather() {
             'https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=48.72&lon=21.23'
         )
         const weatherData = await data.json()
-        console.log(weatherData)
 
-        const time = new Date(weatherData.properties.timeseries[4].time)
+        const time = new Date(weatherData.properties.timeseries[0].time)
         const values = {}
         values.time = [
             (time.getHours() < 10 ? '0':'') + time.getHours(),
             (time.getMinutes() < 10 ? '0':'') + time.getMinutes(),
-            (time.getSeconds() < 10 ? '0':'') + time.getSeconds(),
         ]
-        values.temperature = weatherData.properties.timeseries[4].data.instant.details.air_temperature
-        values.summary = weatherData.properties.timeseries[4].data.next_1_hours.summary.symbol_code
+        values.temperature = weatherData.properties.timeseries[0].data.instant.details.air_temperature
+        values.summary = weatherData.properties.timeseries[0].data.next_1_hours.summary.symbol_code
 
         //items.time = new Date(items.time)
         setWeather(values)
@@ -37,7 +35,7 @@ function CurrentWeather() {
     return (
         <div>
             <h1>Current Weather</h1>
-            <p>{`Forecast time ${weather.time[0]} : ${weather.time[1]} : ${weather.time[2]}`}</p>
+            <p>{`Forecast time ${weather.time[0]} : ${weather.time[1]}`}</p>
             <p>{`Current temperature is ${weather.temperature}`}</p>
             <p>{`Current summary is ${weather.summary}`}</p>
             <WeatherState
