@@ -1,0 +1,343 @@
+import {ReactComponent as AL} from '../icons/weathericon/svg/all.js'
+import {ReactComponent as A_IMPORT} from '../icons/weathericon/svg/a_import.txt'
+import {ReactComponent as CLEARSKY_DAY} from '../icons/weathericon/svg/clearsky_day.svg'
+import {ReactComponent as CLEARSKY_NIGHT} from '../icons/weathericon/svg/clearsky_night.svg'
+import {ReactComponent as CLEARSKY_POLARTWILIGHT} from '../icons/weathericon/svg/clearsky_polartwilight.svg'
+import {ReactComponent as CLOUDY} from '../icons/weathericon/svg/cloudy.svg'
+import {ReactComponent as FAIR_DAY} from '../icons/weathericon/svg/fair_day.svg'
+import {ReactComponent as FAIR_NIGHT} from '../icons/weathericon/svg/fair_night.svg'
+import {ReactComponent as FAIR_POLARTWILIGHT} from '../icons/weathericon/svg/fair_polartwilight.svg'
+import {ReactComponent as FOG} from '../icons/weathericon/svg/fog.svg'
+import {ReactComponent as HEAVYRAIN} from '../icons/weathericon/svg/heavyrain.svg'
+import {ReactComponent as HEAVYRAINANDTHUNDER} from '../icons/weathericon/svg/heavyrainandthunder.svg'
+import {ReactComponent as HEAVYRAINSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/heavyrainshowersandthunder_day.svg'
+import {ReactComponent as HEAVYRAINSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/heavyrainshowersandthunder_night.svg'
+import {ReactComponent as HEAVYRAINSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/heavyrainshowersandthunder_polartwilight.svg'
+import {ReactComponent as HEAVYRAINSHOWERS_DAY} from '../icons/weathericon/svg/heavyrainshowers_day.svg'
+import {ReactComponent as HEAVYRAINSHOWERS_NIGHT} from '../icons/weathericon/svg/heavyrainshowers_night.svg'
+import {ReactComponent as HEAVYRAINSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/heavyrainshowers_polartwilight.svg'
+import {ReactComponent as HEAVYSLEET} from '../icons/weathericon/svg/heavysleet.svg'
+import {ReactComponent as HEAVYSLEETANDTHUNDER} from '../icons/weathericon/svg/heavysleetandthunder.svg'
+import {ReactComponent as HEAVYSLEETSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/heavysleetshowersandthunder_day.svg'
+import {ReactComponent as HEAVYSLEETSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/heavysleetshowersandthunder_night.svg'
+import {ReactComponent as HEAVYSLEETSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/heavysleetshowersandthunder_polartwilight.svg'
+import {ReactComponent as HEAVYSLEETSHOWERS_DAY} from '../icons/weathericon/svg/heavysleetshowers_day.svg'
+import {ReactComponent as HEAVYSLEETSHOWERS_NIGHT} from '../icons/weathericon/svg/heavysleetshowers_night.svg'
+import {ReactComponent as HEAVYSLEETSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/heavysleetshowers_polartwilight.svg'
+import {ReactComponent as HEAVYSNOW} from '../icons/weathericon/svg/heavysnow.svg'
+import {ReactComponent as HEAVYSNOWANDTHUNDER} from '../icons/weathericon/svg/heavysnowandthunder.svg'
+import {ReactComponent as HEAVYSNOWSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/heavysnowshowersandthunder_day.svg'
+import {ReactComponent as HEAVYSNOWSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/heavysnowshowersandthunder_night.svg'
+import {ReactComponent as HEAVYSNOWSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/heavysnowshowersandthunder_polartwilight.svg'
+import {ReactComponent as HEAVYSNOWSHOWERS_DAY} from '../icons/weathericon/svg/heavysnowshowers_day.svg'
+import {ReactComponent as HEAVYSNOWSHOWERS_NIGHT} from '../icons/weathericon/svg/heavysnowshowers_night.svg'
+import {ReactComponent as HEAVYSNOWSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/heavysnowshowers_polartwilight.svg'
+import {ReactComponent as LIGHTRAIN} from '../icons/weathericon/svg/lightrain.svg'
+import {ReactComponent as LIGHTRAINANDTHUNDER} from '../icons/weathericon/svg/lightrainandthunder.svg'
+import {ReactComponent as LIGHTRAINSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/lightrainshowersandthunder_day.svg'
+import {ReactComponent as LIGHTRAINSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/lightrainshowersandthunder_night.svg'
+import {ReactComponent as LIGHTRAINSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/lightrainshowersandthunder_polartwilight.svg'
+import {ReactComponent as LIGHTRAINSHOWERS_DAY} from '../icons/weathericon/svg/lightrainshowers_day.svg'
+import {ReactComponent as LIGHTRAINSHOWERS_NIGHT} from '../icons/weathericon/svg/lightrainshowers_night.svg'
+import {ReactComponent as LIGHTRAINSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/lightrainshowers_polartwilight.svg'
+import {ReactComponent as LIGHTSLEET} from '../icons/weathericon/svg/lightsleet.svg'
+import {ReactComponent as LIGHTSLEETANDTHUNDER} from '../icons/weathericon/svg/lightsleetandthunder.svg'
+import {ReactComponent as LIGHTSLEETSHOWERS_DAY} from '../icons/weathericon/svg/lightsleetshowers_day.svg'
+import {ReactComponent as LIGHTSLEETSHOWERS_NIGHT} from '../icons/weathericon/svg/lightsleetshowers_night.svg'
+import {ReactComponent as LIGHTSLEETSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/lightsleetshowers_polartwilight.svg'
+import {ReactComponent as LIGHTSNOW} from '../icons/weathericon/svg/lightsnow.svg'
+import {ReactComponent as LIGHTSNOWANDTHUNDER} from '../icons/weathericon/svg/lightsnowandthunder.svg'
+import {ReactComponent as LIGHTSNOWSHOWERS_DAY} from '../icons/weathericon/svg/lightsnowshowers_day.svg'
+import {ReactComponent as LIGHTSNOWSHOWERS_NIGHT} from '../icons/weathericon/svg/lightsnowshowers_night.svg'
+import {ReactComponent as LIGHTSNOWSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/lightsnowshowers_polartwilight.svg'
+import {ReactComponent as LIGHTSSLEETSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/lightssleetshowersandthunder_day.svg'
+import {ReactComponent as LIGHTSSLEETSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/lightssleetshowersandthunder_night.svg'
+import {ReactComponent as LIGHTSSLEETSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/lightssleetshowersandthunder_polartwilight.svg'
+import {ReactComponent as LIGHTSSNOWSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/lightssnowshowersandthunder_day.svg'
+import {ReactComponent as LIGHTSSNOWSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/lightssnowshowersandthunder_night.svg'
+import {ReactComponent as LIGHTSSNOWSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/lightssnowshowersandthunder_polartwilight.svg'
+import {ReactComponent as PARTLYCLOUDY_DAY} from '../icons/weathericon/svg/partlycloudy_day.svg'
+import {ReactComponent as PARTLYCLOUDY_NIGHT} from '../icons/weathericon/svg/partlycloudy_night.svg'
+import {ReactComponent as PARTLYCLOUDY_POLARTWILIGHT} from '../icons/weathericon/svg/partlycloudy_polartwilight.svg'
+import {ReactComponent as RAIN} from '../icons/weathericon/svg/rain.svg'
+import {ReactComponent as RAINANDTHUNDER} from '../icons/weathericon/svg/rainandthunder.svg'
+import {ReactComponent as RAINSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/rainshowersandthunder_day.svg'
+import {ReactComponent as RAINSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/rainshowersandthunder_night.svg'
+import {ReactComponent as RAINSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/rainshowersandthunder_polartwilight.svg'
+import {ReactComponent as RAINSHOWERS_DAY} from '../icons/weathericon/svg/rainshowers_day.svg'
+import {ReactComponent as RAINSHOWERS_NIGHT} from '../icons/weathericon/svg/rainshowers_night.svg'
+import {ReactComponent as RAINSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/rainshowers_polartwilight.svg'
+import {ReactComponent as SLEET} from '../icons/weathericon/svg/sleet.svg'
+import {ReactComponent as SLEETANDTHUNDER} from '../icons/weathericon/svg/sleetandthunder.svg'
+import {ReactComponent as SLEETSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/sleetshowersandthunder_day.svg'
+import {ReactComponent as SLEETSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/sleetshowersandthunder_night.svg'
+import {ReactComponent as SLEETSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/sleetshowersandthunder_polartwilight.svg'
+import {ReactComponent as SLEETSHOWERS_DAY} from '../icons/weathericon/svg/sleetshowers_day.svg'
+import {ReactComponent as SLEETSHOWERS_NIGHT} from '../icons/weathericon/svg/sleetshowers_night.svg'
+import {ReactComponent as SLEETSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/sleetshowers_polartwilight.svg'
+import {ReactComponent as SNOW} from '../icons/weathericon/svg/snow.svg'
+import {ReactComponent as SNOWANDTHUNDER} from '../icons/weathericon/svg/snowandthunder.svg'
+import {ReactComponent as SNOWSHOWERSANDTHUNDER_DAY} from '../icons/weathericon/svg/snowshowersandthunder_day.svg'
+import {ReactComponent as SNOWSHOWERSANDTHUNDER_NIGHT} from '../icons/weathericon/svg/snowshowersandthunder_night.svg'
+import {ReactComponent as SNOWSHOWERSANDTHUNDER_POLARTWILIGHT} from '../icons/weathericon/svg/snowshowersandthunder_polartwilight.svg'
+import {ReactComponent as SNOWSHOWERS_DAY} from '../icons/weathericon/svg/snowshowers_day.svg'
+import {ReactComponent as SNOWSHOWERS_NIGHT} from '../icons/weathericon/svg/snowshowers_night.svg'
+import {ReactComponent as SNOWSHOWERS_POLARTWILIGHT} from '../icons/weathericon/svg/snowshowers_polartwilight.svg'
+
+
+
+case 'AL':
+	icon = <AL/>
+	break;
+case 'A_IMPORT':
+	icon = <A_IMPORT/>
+	break;
+case 'CLEARSKY_DAY':
+	icon = <CLEARSKY_DAY/>
+	break;
+case 'CLEARSKY_NIGHT':
+	icon = <CLEARSKY_NIGHT/>
+	break;
+case 'CLEARSKY_POLARTWILIGHT':
+	icon = <CLEARSKY_POLARTWILIGHT/>
+	break;
+case 'CLOUDY':
+	icon = <CLOUDY/>
+	break;
+case 'FAIR_DAY':
+	icon = <FAIR_DAY/>
+	break;
+case 'FAIR_NIGHT':
+	icon = <FAIR_NIGHT/>
+	break;
+case 'FAIR_POLARTWILIGHT':
+	icon = <FAIR_POLARTWILIGHT/>
+	break;
+case 'FOG':
+	icon = <FOG/>
+	break;
+case 'HEAVYRAIN':
+	icon = <HEAVYRAIN/>
+	break;
+case 'HEAVYRAINANDTHUNDER':
+	icon = <HEAVYRAINANDTHUNDER/>
+	break;
+case 'HEAVYRAINSHOWERSANDTHUNDER_DAY':
+	icon = <HEAVYRAINSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'HEAVYRAINSHOWERSANDTHUNDER_NIGHT':
+	icon = <HEAVYRAINSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'HEAVYRAINSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <HEAVYRAINSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'HEAVYRAINSHOWERS_DAY':
+	icon = <HEAVYRAINSHOWERS_DAY/>
+	break;
+case 'HEAVYRAINSHOWERS_NIGHT':
+	icon = <HEAVYRAINSHOWERS_NIGHT/>
+	break;
+case 'HEAVYRAINSHOWERS_POLARTWILIGHT':
+	icon = <HEAVYRAINSHOWERS_POLARTWILIGHT/>
+	break;
+case 'HEAVYSLEET':
+	icon = <HEAVYSLEET/>
+	break;
+case 'HEAVYSLEETANDTHUNDER':
+	icon = <HEAVYSLEETANDTHUNDER/>
+	break;
+case 'HEAVYSLEETSHOWERSANDTHUNDER_DAY':
+	icon = <HEAVYSLEETSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'HEAVYSLEETSHOWERSANDTHUNDER_NIGHT':
+	icon = <HEAVYSLEETSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'HEAVYSLEETSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <HEAVYSLEETSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'HEAVYSLEETSHOWERS_DAY':
+	icon = <HEAVYSLEETSHOWERS_DAY/>
+	break;
+case 'HEAVYSLEETSHOWERS_NIGHT':
+	icon = <HEAVYSLEETSHOWERS_NIGHT/>
+	break;
+case 'HEAVYSLEETSHOWERS_POLARTWILIGHT':
+	icon = <HEAVYSLEETSHOWERS_POLARTWILIGHT/>
+	break;
+case 'HEAVYSNOW':
+	icon = <HEAVYSNOW/>
+	break;
+case 'HEAVYSNOWANDTHUNDER':
+	icon = <HEAVYSNOWANDTHUNDER/>
+	break;
+case 'HEAVYSNOWSHOWERSANDTHUNDER_DAY':
+	icon = <HEAVYSNOWSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'HEAVYSNOWSHOWERSANDTHUNDER_NIGHT':
+	icon = <HEAVYSNOWSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'HEAVYSNOWSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <HEAVYSNOWSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'HEAVYSNOWSHOWERS_DAY':
+	icon = <HEAVYSNOWSHOWERS_DAY/>
+	break;
+case 'HEAVYSNOWSHOWERS_NIGHT':
+	icon = <HEAVYSNOWSHOWERS_NIGHT/>
+	break;
+case 'HEAVYSNOWSHOWERS_POLARTWILIGHT':
+	icon = <HEAVYSNOWSHOWERS_POLARTWILIGHT/>
+	break;
+case 'LIGHTRAIN':
+	icon = <LIGHTRAIN/>
+	break;
+case 'LIGHTRAINANDTHUNDER':
+	icon = <LIGHTRAINANDTHUNDER/>
+	break;
+case 'LIGHTRAINSHOWERSANDTHUNDER_DAY':
+	icon = <LIGHTRAINSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'LIGHTRAINSHOWERSANDTHUNDER_NIGHT':
+	icon = <LIGHTRAINSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'LIGHTRAINSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <LIGHTRAINSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'LIGHTRAINSHOWERS_DAY':
+	icon = <LIGHTRAINSHOWERS_DAY/>
+	break;
+case 'LIGHTRAINSHOWERS_NIGHT':
+	icon = <LIGHTRAINSHOWERS_NIGHT/>
+	break;
+case 'LIGHTRAINSHOWERS_POLARTWILIGHT':
+	icon = <LIGHTRAINSHOWERS_POLARTWILIGHT/>
+	break;
+case 'LIGHTSLEET':
+	icon = <LIGHTSLEET/>
+	break;
+case 'LIGHTSLEETANDTHUNDER':
+	icon = <LIGHTSLEETANDTHUNDER/>
+	break;
+case 'LIGHTSLEETSHOWERS_DAY':
+	icon = <LIGHTSLEETSHOWERS_DAY/>
+	break;
+case 'LIGHTSLEETSHOWERS_NIGHT':
+	icon = <LIGHTSLEETSHOWERS_NIGHT/>
+	break;
+case 'LIGHTSLEETSHOWERS_POLARTWILIGHT':
+	icon = <LIGHTSLEETSHOWERS_POLARTWILIGHT/>
+	break;
+case 'LIGHTSNOW':
+	icon = <LIGHTSNOW/>
+	break;
+case 'LIGHTSNOWANDTHUNDER':
+	icon = <LIGHTSNOWANDTHUNDER/>
+	break;
+case 'LIGHTSNOWSHOWERS_DAY':
+	icon = <LIGHTSNOWSHOWERS_DAY/>
+	break;
+case 'LIGHTSNOWSHOWERS_NIGHT':
+	icon = <LIGHTSNOWSHOWERS_NIGHT/>
+	break;
+case 'LIGHTSNOWSHOWERS_POLARTWILIGHT':
+	icon = <LIGHTSNOWSHOWERS_POLARTWILIGHT/>
+	break;
+case 'LIGHTSSLEETSHOWERSANDTHUNDER_DAY':
+	icon = <LIGHTSSLEETSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'LIGHTSSLEETSHOWERSANDTHUNDER_NIGHT':
+	icon = <LIGHTSSLEETSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'LIGHTSSLEETSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <LIGHTSSLEETSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'LIGHTSSNOWSHOWERSANDTHUNDER_DAY':
+	icon = <LIGHTSSNOWSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'LIGHTSSNOWSHOWERSANDTHUNDER_NIGHT':
+	icon = <LIGHTSSNOWSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'LIGHTSSNOWSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <LIGHTSSNOWSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'PARTLYCLOUDY_DAY':
+	icon = <PARTLYCLOUDY_DAY/>
+	break;
+case 'PARTLYCLOUDY_NIGHT':
+	icon = <PARTLYCLOUDY_NIGHT/>
+	break;
+case 'PARTLYCLOUDY_POLARTWILIGHT':
+	icon = <PARTLYCLOUDY_POLARTWILIGHT/>
+	break;
+case 'RAIN':
+	icon = <RAIN/>
+	break;
+case 'RAINANDTHUNDER':
+	icon = <RAINANDTHUNDER/>
+	break;
+case 'RAINSHOWERSANDTHUNDER_DAY':
+	icon = <RAINSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'RAINSHOWERSANDTHUNDER_NIGHT':
+	icon = <RAINSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'RAINSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <RAINSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'RAINSHOWERS_DAY':
+	icon = <RAINSHOWERS_DAY/>
+	break;
+case 'RAINSHOWERS_NIGHT':
+	icon = <RAINSHOWERS_NIGHT/>
+	break;
+case 'RAINSHOWERS_POLARTWILIGHT':
+	icon = <RAINSHOWERS_POLARTWILIGHT/>
+	break;
+case 'SLEET':
+	icon = <SLEET/>
+	break;
+case 'SLEETANDTHUNDER':
+	icon = <SLEETANDTHUNDER/>
+	break;
+case 'SLEETSHOWERSANDTHUNDER_DAY':
+	icon = <SLEETSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'SLEETSHOWERSANDTHUNDER_NIGHT':
+	icon = <SLEETSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'SLEETSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <SLEETSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'SLEETSHOWERS_DAY':
+	icon = <SLEETSHOWERS_DAY/>
+	break;
+case 'SLEETSHOWERS_NIGHT':
+	icon = <SLEETSHOWERS_NIGHT/>
+	break;
+case 'SLEETSHOWERS_POLARTWILIGHT':
+	icon = <SLEETSHOWERS_POLARTWILIGHT/>
+	break;
+case 'SNOW':
+	icon = <SNOW/>
+	break;
+case 'SNOWANDTHUNDER':
+	icon = <SNOWANDTHUNDER/>
+	break;
+case 'SNOWSHOWERSANDTHUNDER_DAY':
+	icon = <SNOWSHOWERSANDTHUNDER_DAY/>
+	break;
+case 'SNOWSHOWERSANDTHUNDER_NIGHT':
+	icon = <SNOWSHOWERSANDTHUNDER_NIGHT/>
+	break;
+case 'SNOWSHOWERSANDTHUNDER_POLARTWILIGHT':
+	icon = <SNOWSHOWERSANDTHUNDER_POLARTWILIGHT/>
+	break;
+case 'SNOWSHOWERS_DAY':
+	icon = <SNOWSHOWERS_DAY/>
+	break;
+case 'SNOWSHOWERS_NIGHT':
+	icon = <SNOWSHOWERS_NIGHT/>
+	break;
+case 'SNOWSHOWERS_POLARTWILIGHT':
+	icon = <SNOWSHOWERS_POLARTWILIGHT/>
+	break;

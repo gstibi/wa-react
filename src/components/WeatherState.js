@@ -3,8 +3,7 @@ import Icon from './WeatherIcons'
 
 function WeatherState(props) {
     return (
-        <div className="App">
-            <h1>WeatherState</h1>
+        <div className="weather_state">
             <WeatherTime
                 time={props.weather.time}
             />
@@ -18,8 +17,6 @@ function WeatherState(props) {
     );
 }
 
-export default WeatherState;
-
 function WeatherTime(props) {
     return (
         <div>
@@ -32,17 +29,18 @@ function WeatherIcon(props) {
     return (
         <div>
             <Icon
-                summary='clearsky_night'
+                summary={props.summary}
             />
         </div>
     )
 }
 
 function WeatherTemperature(props) {
-    console.log(props)
     return (
         <div>
-            <p>{props.temperature}</p>
+            <p>{props.temperature} °C</p>
         </div>
     )
 }
+
+export default WeatherState;

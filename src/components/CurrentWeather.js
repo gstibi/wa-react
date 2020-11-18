@@ -3,11 +3,15 @@ import WeatherState from './WeatherState'
 
 function CurrentWeather() {
 
-    const [weather, setWeather] = useState({
-        time: 0,
-        temperature: 0,
-        summary: 'cloudy'
-    })
+    const [weather, setWeather] = useState(
+        [
+            {
+                time: 0,
+                temperature: 0,
+                summary: 'cloudy'
+            }
+        ]
+    )
 
     useEffect(() => {
         fetchWeather()
@@ -28,18 +32,13 @@ function CurrentWeather() {
         values.temperature = weatherData.properties.timeseries[0].data.instant.details.air_temperature
         values.summary = weatherData.properties.timeseries[0].data.next_1_hours.summary.symbol_code
 
-        //items.time = new Date(items.time)
-        setWeather(values)
+        setWeather([values])
     }
 
     return (
         <div>
-            <h1>Current Weather</h1>
-            <p>{`Forecast time ${weather.time[0]} : ${weather.time[1]}`}</p>
-            <p>{`Current temperature is ${weather.temperature}`}</p>
-            <p>{`Current summary is ${weather.summary}`}</p>
             <WeatherState
-                weather={weather}
+                weather={weather[0]}
             />
         </div>
     );

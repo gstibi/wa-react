@@ -1,10 +1,7 @@
-.img_container {
-    width: 100px;
-    height: 100px;
+.weather_state {
+    max-height: 50vh;
 }
 
-.partlycloudy_day {
-    background-image: url(./icons/weathericon/png/partlycloudy_day.png);
-    background-repeat: no-repeat;
-    background-size: contain;
+.forecast_row {
+    overflow: scroll;
 }
